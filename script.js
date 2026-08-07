@@ -9,13 +9,18 @@
 // para "Texto alterado com sucesso!"
 //
 // Dica: use document.getElementById() e .textContent
-
+document.getElementById("btn1").addEventListener("click", function (){
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
+})
 
 
 // ---------- Exercicio 2 ----------
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
 //
 // Dica: use .style.color = "blue"
+document.getElementById("btn2").addEventListener("click", function (){
+    document.getElementById("texto2").style.color = "blue"
+})
 
 
 
@@ -23,6 +28,9 @@
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
+document.getElementById("btn3").addEventListener("click", function (){
+    document.getElementById("texto3").style.display = "none"
+})
 
 
 
@@ -31,6 +39,11 @@
 // "Novo item" dentro da lista #lista4
 //
 // Dica: use document.createElement() e .appendChild()
+document.getElementById("btn4").addEventListener("click", function (){
+    const novo = document.createElement("li")
+    novo.textContent = "Novo item"
+    document.getElementById("lista4").appendChild(novo)
+})
 
 
 
