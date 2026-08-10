@@ -52,7 +52,9 @@ document.getElementById("btn4").addEventListener("click", function (){
 // para amarelo
 //
 // Dica: use .style.backgroundColor = "yellow"
-
+document.getElementById("btn5").addEventListener("click", function (){
+    document.getElementById("caixa5").style.backgroundColor = "yellow"
+})
 
 
 // ---------- Exercicio 6 ----------
