@@ -74,6 +74,9 @@ document.getElementById("btn6").addEventListener("click", function (){
 // e mostre dentro do #resultado7
 //
 // Dica: use .value para pegar o texto do input
+document.getElementById("btn7").addEventListener("click", function () {
+    document.getElementById("resultado7").textContent = document.getElementById("input7").value
+    })
 
 
 
